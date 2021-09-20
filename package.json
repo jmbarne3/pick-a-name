@@ -18,5 +18,8 @@
         "gulp-uglify": "^3.0.2",
         "sass": "^1.41.1"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "scripts": {
+        "build": "echo built"
+    }
 }
