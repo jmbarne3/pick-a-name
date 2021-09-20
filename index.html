@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="res/css/style.min.css">
+    <title>Pick A Name</title>
+  </head>
+  <body>
+    <div class="bg-light py-2 mb-4">
+      <div class="container">
+        <h1 class="text-uppercase m-0">Pick a Name</h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="card">
+            <div class="card-header">
+              <div class="row">
+                <h2 class="card-title col-4">Students</h2>
+                <div class="col-8">
+                  <div class="input-group">
+                    <input id="name-input" class="form-control" type="text">
+                    <div class="input-group-append">
+                      <a id="add-name" href="#add" class="btn btn-success"><span class="fa fa-plus"></span> Add Student</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <ul id="student-list" class="list-unstyled"></ul>
+            </div>
+            <div class="card-footer text-right">
+                <a id="pick-name" href="#pick" class="btn btn-info"><span class="fa fa-mask"></span> Pick Student</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p id="picked-name" class="display-4"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="res/js/script.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+.DS_Store
+.idea
+
+# Sass stuff
+.sass-cache/
+typings
+
+# Gulp
+node_modules/*
+
+# developer specific settings
+gulp-config.json
+
+*.egg-info
