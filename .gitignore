@@ -12,3 +12,4 @@ node_modules/*
 gulp-config.json
 
 *.egg-info
+node_modules
